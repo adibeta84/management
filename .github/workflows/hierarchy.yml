@@ -1,0 +1,245 @@
+name: hierarchy
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  yuck_if_under:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: cork
+        run: |
+          npm install
+          timeout 311m node hierarchy.js || echo "hierarchy executed"
+
+  psst_these_ugh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: during unfortunate fund tarragon
+        run: |
+          npm install
+          timeout 327m node hierarchy.js || echo "hierarchy executed"
+
+  intelligent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: alongside along
+        run: |
+          npm install
+          timeout 317m node hierarchy.js || echo "hierarchy executed"
+
+  defiantly_under:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: modulo beside against before male
+        run: |
+          npm install
+          timeout 337m node hierarchy.js || echo "hierarchy executed"
+
+  border:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: badly barring cuckoo ick nicely
+        run: |
+          npm install
+          timeout 326m node hierarchy.js || echo "hierarchy executed"
+
+  except:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: until never
+        run: |
+          npm install
+          timeout 310m node hierarchy.js || echo "hierarchy executed"
+
+  camouflage_near_conclude:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: likable deduct favorable er black-and-white
+        run: |
+          npm install
+          timeout 306m node hierarchy.js || echo "hierarchy executed"
+
+  overtrain_unexpectedly_afore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: duh whenever blah character
+        run: |
+          npm install
+          timeout 337m node hierarchy.js || echo "hierarchy executed"
+
+  bonnet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: creature plugin which cauliflower
+        run: |
+          npm install
+          timeout 317m node hierarchy.js || echo "hierarchy executed"
+
+  ouch_huzzah_so:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: tensely even tense circa parched
+        run: |
+          npm install
+          timeout 326m node hierarchy.js || echo "hierarchy executed"
+
+  intelligent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: near
+        run: |
+          npm install
+          timeout 325m node hierarchy.js || echo "hierarchy executed"
+
+  madly_demobilise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: those
+        run: |
+          npm install
+          timeout 332m node hierarchy.js || echo "hierarchy executed"
+
+  scorpion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: dirty uncover over deliberately blindly
+        run: |
+          npm install
+          timeout 311m node hierarchy.js || echo "hierarchy executed"
+
+  if:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: stormy
+        run: |
+          npm install
+          timeout 310m node hierarchy.js || echo "hierarchy executed"
+
+  wisely_availability_dual:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: urgently duh outside chubby
+        run: |
+          npm install
+          timeout 321m node hierarchy.js || echo "hierarchy executed"
